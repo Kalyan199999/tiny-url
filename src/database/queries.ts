@@ -1,5 +1,5 @@
-import supabase from "./config.ts";
-import { Payload } from '../types/Payload.ts';
+import supabase from "./config.js";
+import { Payload } from '../types/Payload.js';
 
 export async function addUrl( payload:Payload )
 {

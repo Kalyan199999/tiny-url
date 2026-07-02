@@ -1,6 +1,6 @@
 import { Request,Response } from "express";
-import { addUrl,getUrl } from '../database/queries.ts'
-import { checkUserName,checkUrl,checkShortUrl } from '../utilities/utility.ts'
+import { addUrl,getUrl } from '../database/queries.js'
+import { checkUserName,checkUrl,checkShortUrl } from '../utilities/utility.js'
 import md5 from 'md5';
 
 export async function addNewUrl( request:Request , response:Response ) 

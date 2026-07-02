@@ -1,11 +1,11 @@
 import express, { Router } from 'express';
 
-import { UpadteCounter } from '../middlewares/counter.ts'
+import { UpadteCounter } from '../middlewares/counter.js'
 
 import { 
     addNewUrl,
     fecthUrl
-} from '../controllers/router_controller.ts'
+} from '../controllers/router_controller.js'
 
 const router: Router = express.Router();
 
