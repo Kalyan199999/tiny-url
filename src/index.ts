@@ -1,5 +1,3 @@
-console.log("I'm in index.js");
-
 
 import express, { Application , Request, Response }  from 'express'
 import 'dotenv/config'
