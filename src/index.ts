@@ -1,3 +1,6 @@
+console.log("I'm in index.js");
+
+
 import express, { Application , Request, Response }  from 'express'
 import 'dotenv/config'
 import router from './routes/url_route.js'
